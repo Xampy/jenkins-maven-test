@@ -1,0 +1,10 @@
+version: '2'
+services:
+  server:
+    container_name: app-server
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: app-server:latest
+    ports:
+      - 8080:8080
