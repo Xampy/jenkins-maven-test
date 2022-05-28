@@ -3,7 +3,10 @@ package com.instantSnap.demo.dto;
 public class SaveMessageRequest {
     public String message;
 
-    public SaveMessageRequest() {}
+    public SaveMessageRequest() {
+
+    }
+    
     public SaveMessageRequest(String message){
         this.message = message;
     }
